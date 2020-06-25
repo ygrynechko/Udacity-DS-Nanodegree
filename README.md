@@ -10,28 +10,18 @@ Data set available here: https://www.kaggle.com/airbnb/boston has a lot of the d
 -train: 0.5840263594330857
 Those results are not perfect but acceptable so I am sure that with further data analysis we could achieve better predictions.
 
-During the data preparation phase I decided to split the amenities into separate entities and create new columns with boolean values for each. Below we can see how amy objects -have given amenities: 
+During the data preparation phase I decided to split the amenities into separate entities and create new columns with boolean values for each. Top 10 amenities are listed below: \
 heating 3382\
-kitchen 3272
--wireless internet 3070
-essentials 2994
-smoke detector 2908
-air conditioning 2786
- tv 2607
-dryer 2476
-washer 2475
-carbon monoxide detector 2442
-shampoo 2421
-internet 2160
-hangers 1985
-family/kid friendly 1886
-laptop friendly workspace 1834
-iron 1828
-hair dryer 1811
-cable tv 1652
-fire extinguisher 1582
-24-hour check-in 1246
-first aid kit 1063
+kitchen 3272\
+-wireless internet 3070\
+essentials 2994\
+smoke detector 2908\
+air conditioning 2786\
+ tv 2607\
+dryer 2476\
+washer 2475\
+carbon monoxide detector 2442\
+And the correlation between those amenities and price are:\
 
 
 
