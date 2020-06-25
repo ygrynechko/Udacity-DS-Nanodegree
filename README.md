@@ -31,7 +31,7 @@ Amenities_heating                      0.060418\
 Amenities_wireless internet            0.011989\
 Amenities_carbon monoxide detector    -0.001271\
 Amenities_smoke detector              -0.017888\
-In some cases corelation is quite high. 
+In some cases corelation is quite high./ 
 
-
+At the end I tried to see if the price of the stay depends on the neighbourhood. But after generating comparing the map with all of the objects colored based on the neihbourhood to the map of the objects coloured by the price range we can see that those two don'r relate.  
 
