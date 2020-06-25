@@ -13,17 +13,25 @@ Those results are not perfect but acceptable so I am sure that with further data
 During the data preparation phase I decided to split the amenities into separate entities and create new columns with boolean values for each. Top 10 amenities are listed below: \
 heating 3382\
 kitchen 3272\
--wireless internet 3070\
+wireless internet 3070\
 essentials 2994\
 smoke detector 2908\
 air conditioning 2786\
- tv 2607\
+tv 2607\
 dryer 2476\
 washer 2475\
 carbon monoxide detector 2442\
 And the correlation between those amenities and price are:\
-
-
+Amenities_ tv                          0.226981\
+Amenities_air conditioning             0.220434\
+Amenities_washer                       0.125687\
+Amenities_dryer                        0.105467\
+Amenities_kitchen                      0.095146\
+Amenities_heating                      0.060418\
+Amenities_wireless internet            0.011989\
+Amenities_carbon monoxide detector    -0.001271\
+Amenities_smoke detector              -0.017888\
+In some cases corelation is quite high. 
 
 
 
