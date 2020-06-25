@@ -10,10 +10,10 @@ Data set available here: https://www.kaggle.com/airbnb/boston has a lot of the d
 -train: 0.5840263594330857
 Those results are not perfect but acceptable so I am sure that with further data analysis we could achieve better predictions.
 
-During the data preparation phase I decided to split the amenities into separate entities and create new columns with boolean values for each. Below we can see how amy objects have given amenities: 
-heating 3382
-kitchen 3272
-wireless internet 3070
+During the data preparation phase I decided to split the amenities into separate entities and create new columns with boolean values for each. Below we can see how amy objects -have given amenities: 
+-heating 3382
+-kitchen 3272
+-wireless internet 3070
 essentials 2994
 smoke detector 2908
 air conditioning 2786
