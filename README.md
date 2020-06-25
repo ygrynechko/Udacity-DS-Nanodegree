@@ -33,5 +33,5 @@ Amenities_carbon monoxide detector    -0.001271\
 Amenities_smoke detector              -0.017888\
 In some cases corelation with te price is quite high. 
 
-At the end I tried to see if the price of the stay depends on the neighbourhood. But after generating comparing the map with all of the objects colored based on the neihbourhood to the map of the objects coloured by the price range we can see that those two don'r relate.  
+At the end I tried to see if the price of the stay depends on the neighbourhood. But after comparing the map with all of the objects colored based on the neihbourhood to the map of the objects coloured by the price range we can see that those two don'r relate. After this I attempted to cluster the objectcs with all of the available data but again, cluster didn't match the neighbourhoods. 
 
