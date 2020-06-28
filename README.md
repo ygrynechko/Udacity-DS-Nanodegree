@@ -33,7 +33,7 @@ Data file which originally was downloaded from https://www.kaggle.com/airbnb/bos
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the text available [here](placeolder for link).
+The main findings of the code can be found at the text available [here](https://medium.com/@gienekszwed/boston-airb-b-price-prediction-and-objects-clustering-4a15c08495de).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
