@@ -1,37 +1,51 @@
-![boston png](https://cdn.passporthealthusa.com/wp-content/uploads/2017/04/passport-health-downtown-boston-travel-clinic.jpg?x90298)
-# Boston AirB&B. Price prediction and objects clustering.
 
-With one small data set available for free we will try to get some insights on the AirB&B market in Boston. 
-Is it possible to predict rent price of the bed based on the apartment specification? What are the most common amenities and do they
-matter in price prediction? Can we clearly cluster the objects and do those clusters fit into the Boston neighborhood map? 
+### Table of Contents
 
-Data set available here: https://www.kaggle.com/airbnb/boston has a lot of the data we need to clean and change before using in the prediction. We need to decide which fields are not benificial to our prediction and we can drop and wich ones are worth the trouble of cleaning. After cleanup and numeric fields generation I ended up with 2736 rows and 63 columns of clean and usefull data. Base on it our simple linear regression ended up with the following squered error values:
--test: 0.5878648832764807
--train: 0.5840263594330857
-Those results are not perfect but acceptable so I am sure that with further data analysis we could achieve better predictions.
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-During the data preparation phase I decided to split the amenities into separate entities and create new columns with boolean values for each. Top 10 amenities are listed below: \
-heating 3382\
-kitchen 3272\
-wireless internet 3070\
-essentials 2994\
-smoke detector 2908\
-air conditioning 2786\
-tv 2607\
-dryer 2476\
-washer 2475\
-carbon monoxide detector 2442\
-And the correlation between those amenities and price are:\
-Amenities_ tv                          0.226981\
-Amenities_air conditioning             0.220434\
-Amenities_washer                       0.125687\
-Amenities_dryer                        0.105467\
-Amenities_kitchen                      0.095146\
-Amenities_heating                      0.060418\
-Amenities_wireless internet            0.011989\
-Amenities_carbon monoxide detector    -0.001271\
-Amenities_smoke detector              -0.017888\
-In some cases corelation with te price is quite high. 
+## Installation <a name="installation"></a>
 
-At the end I tried to see if the price of the stay depends on the neighbourhood. But after comparing the map with all of the objects colored based on the neihbourhood to the map of the objects coloured by the price range we can see that those two don'r relate. After this I attempted to cluster the objectcs with all of the available data but again, cluster didn't match the neighbourhoods. 
+In case of any errors with map genaration please run this installation commends:\
+!pip install geopy\
+!pip install geocode\
+But the code should with no issues using Python versions 3.*.
+
+## Project Motivation<a name="motivation"></a>
+
+We are trying to answer a couple of questions with the use of Boston AirB&B data:
+
+1. What are the most common ammenities in the listed object and do they matter in price prediction?
+2. How good of a price prediction we can get with available data?
+3. Can we find the clusturs of the objects the are similar to the neighborhoods?
+
+All of the used files are available in in this repository. This project was done to compete Project 1 from Udacity Nanodegree. 
+
+
+## File Descriptions <a name="files"></a>
+
+There is one notebook available with data analysis and prediction steps. Every step is explained with the use of markdowns and comments.
+
+Data file which originally was downloaded from https://www.kaggle.com/airbnb/boston is added to the repository
+
+## Results<a name="results"></a>
+
+The main findings of the code can be found at the text available [here](placeolder for link).
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+Must give credit to Air B&B for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/boston).  Otherwise, feel free to use the code here as you would like! 
+
+
+
+
+
+
+
+
+
+
 
