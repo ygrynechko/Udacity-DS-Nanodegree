@@ -21,7 +21,7 @@ This project is to classify disaster response messages through machine learning.
 
 ## Screenshots
 This is the frontpage:
-![Alt text](https://github.com/janierkkilae/Disaster-Response-Pipelines/blob/master/Screenshot1.PNG?raw=true "Screenshot1")
+![Alt text](https://github.com/ygrynechko/Udacity_DS_Nanodegree/blob/master/Project_2/ScreenShots/clasiffication.png?raw=true "Screenshot1")
 
 By inputting a word, you can check its category:
 ![Alt text](https://github.com/janierkkilae/Disaster-Response-Pipelines/blob/master/Screenshot2.PNG?raw=true "Screenshot2")
