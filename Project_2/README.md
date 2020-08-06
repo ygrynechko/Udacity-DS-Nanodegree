@@ -11,6 +11,10 @@ This project is to classify disaster response messages through machine learning.
 - App
   - run.py: Flask app and the user interface used to predict results and display them.
   - templates: folder containing the html templates
+- ScreenShots
+  - screenshots of the webapp 
+- Notebooks
+  - jupyter notebooks that show step by step how the data cleaning and model creation were done
 
 ## Example:
 > python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
