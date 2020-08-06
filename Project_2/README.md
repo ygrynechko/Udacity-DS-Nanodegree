@@ -20,10 +20,10 @@ This project is to classify disaster response messages through machine learning.
 > python run.py
 
 ## Screenshots
-This is the frontpage:
+Text classification:
 ![Alt text](https://github.com/ygrynechko/Udacity_DS_Nanodegree/blob/master/Project_2/ScreenShots/clasiffication.png?raw=true "Screenshot1")
 
-By inputting a word, you can check its category:
+Basic graphs:
 ![Alt text](https://github.com/ygrynechko/Udacity_DS_Nanodegree/blob/master/Project_2/ScreenShots/graphs.png?raw=true "Screenshot2")
 
 ## About
