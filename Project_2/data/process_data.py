@@ -73,7 +73,8 @@ def save_data(df, database_filename):
     """
     # Before saving remove old table if exists
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('df', engine, index=False)
+
+    df.to_sql('df', engine, index=False, if_exists='replace')
 
 
 def main():

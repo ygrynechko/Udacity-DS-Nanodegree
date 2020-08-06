@@ -84,10 +84,10 @@ def evaluate_model(model, X_test, y_test, category_names):
     OUTPUT
     None
     """
-    # Get results and add them to a dataframe.
     y_pred = model.predict(X_test)
     print(classification_report(y_test, y_pred, target_names=category_names))
-    results = pd.DataFrame(columns=['Category', 'f_score', 'precision', 'recall'])
+
+
 
 
 def save_model(model, model_filepath):
