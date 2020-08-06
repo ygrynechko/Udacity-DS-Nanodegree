@@ -1,5 +1,5 @@
 # Disaster Response Pipeline Project
-This project is to classify disaster response messages through machine learning. 
+ With the use of over 50 k historical tweets which were categorized we were able to build and train machine learning classification model that will allow us to classify future tweets. With help of this model organizations will be able to filter for relevant tweets and categorize them which will result in faster response to people in need. 
 
 ## Content
 - Data
